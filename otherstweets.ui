@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>othersTweets</class>
+ <widget class="QWidget" name="othersTweets">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>others tweet</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:
+rgb(204, 235, 255)</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>160</y>
+     <width>931</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>20</y>
+     <width>571</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+   <property name="placeholderText">
+    <string>Search username(@username) </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>820</y>
+     <width>521</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : 
+qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 19, 124, 255), stop:0.295775 rgba(29, 44, 177, 255), stop:0.591549 rgba(80, 89, 207, 255), stop:1 rgba(79, 165, 189, 255))</string>
+   </property>
+   <property name="text">
+    <string>DONE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_mention">
+   <property name="geometry">
+    <rect>
+     <x>1260</x>
+     <y>380</y>
+     <width>231</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 19, 124, 255), stop:0.295775 rgba(29, 44, 177, 255), stop:0.591549 rgba(80, 89, 207, 255), stop:1 rgba(79, 165, 189, 255))</string>
+   </property>
+   <property name="text">
+    <string>add mention</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="mention">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>160</y>
+     <width>361</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>your mention</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tweetsnum">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>380</y>
+     <width>121</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>number of tweet</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="like_tweet">
+   <property name="geometry">
+    <rect>
+     <x>1640</x>
+     <y>680</y>
+     <width>231</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 19, 124, 255), stop:0.295775 rgba(29, 44, 177, 255), stop:0.591549 rgba(80, 89, 207, 255), stop:1 rgba(79, 165, 189, 255))</string>
+   </property>
+   <property name="text">
+    <string>like Tweet</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="like">
+   <property name="geometry">
+    <rect>
+     <x>1510</x>
+     <y>680</y>
+     <width>121</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>number of tweet</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>840</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 19, 124, 255), stop:0.295775 rgba(29, 44, 177, 255), stop:0.591549 rgba(80, 89, 207, 255), stop:1 rgba(79, 165, 189, 255))</string>
+   </property>
+   <property name="text">
+    <string>&lt;&lt;Back</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="like_retweet">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>680</y>
+     <width>121</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>number of tweet</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="retweet">
+   <property name="geometry">
+    <rect>
+     <x>1260</x>
+     <y>680</y>
+     <width>231</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 19, 124, 255), stop:0.295775 rgba(29, 44, 177, 255), stop:0.591549 rgba(80, 89, 207, 255), stop:1 rgba(79, 165, 189, 255))</string>
+   </property>
+   <property name="text">
+    <string>Retweet</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tweetsnum_2">
+   <property name="geometry">
+    <rect>
+     <x>1510</x>
+     <y>380</y>
+     <width>121</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>number of tweet</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="qoute">
+   <property name="geometry">
+    <rect>
+     <x>1640</x>
+     <y>380</y>
+     <width>231</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 19, 124, 255), stop:0.295775 rgba(29, 44, 177, 255), stop:0.591549 rgba(80, 89, 207, 255), stop:1 rgba(79, 165, 189, 255))</string>
+   </property>
+   <property name="text">
+    <string>Quote</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="qoute_txt">
+   <property name="geometry">
+    <rect>
+     <x>1510</x>
+     <y>160</y>
+     <width>361</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>your tweet</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tweetsnum_3">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>550</y>
+     <width>121</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>number of tweet</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_mention_2">
+   <property name="geometry">
+    <rect>
+     <x>1510</x>
+     <y>540</y>
+     <width>361</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 19, 124, 255), stop:0.295775 rgba(29, 44, 177, 255), stop:0.591549 rgba(80, 89, 207, 255), stop:1 rgba(79, 165, 189, 255))</string>
+   </property>
+   <property name="text">
+    <string>Like mention</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tweetsnum_4">
+   <property name="geometry">
+    <rect>
+     <x>1260</x>
+     <y>550</y>
+     <width>231</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>number of mention</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

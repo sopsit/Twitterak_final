@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>C:/Users/Yasaman/Desktop/profiles/battman.jpg</file>
+        <file>C:/Users/Yasaman/Desktop/profiles/cat.jpg</file>
+        <file>C:/Users/Yasaman/Desktop/profiles/champion-captain-america-720x720.jpg</file>
+        <file>C:/Users/Yasaman/Desktop/profiles/ironman.jpg</file>
+        <file>C:/Users/Yasaman/Desktop/profiles/phone&amp;.jpg</file>
+        <file>C:/Users/Yasaman/Desktop/profiles/spiderman.jpg</file>
+        <file>C:/Users/Yasaman/Desktop/profiles/superman.jpg</file>
+        <file>C:/Users/Yasaman/Desktop/profiles/user-anon.jpg</file>
+        <file>C:/Users/Yasaman/Desktop/profiles/withoutprofile.jpg</file>
+        <file>C:/Users/Yasaman/Desktop/logos/logo2.png</file>
+        <file>C:/Users/Yasaman/Desktop/logos/logo3.png</file>
+    </qresource>
+</RCC>
